@@ -1,0 +1,118 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  height: 100%;
+ background-image: linear-gradient(#6e6c6c  ,transparent);
+}
+header{
+  background-color: blue;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+label{
+  font-family: sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0px 3px 0px 0px;
+
+}
+#nameIn{
+  margin: 5px 0px 5px 15px;
+}
+.in{
+  width: 85%;
+  margin: 5px 0px 5px 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: .2s;
+}
+.in:hover{
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.inputAndLabel{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#ButtonCar{
+  background-color: #0404eb;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  margin: 5px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .1s;
+}
+#ButtonCar:hover{
+  background-color: #2f0269;
+  color: #fff;
+
+}
+#disButton{
+   background-color: #0404eb;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  margin: 5px 0px;
+  border-radius: 8px;
+}
+
+
+table{
+  /* background-color: blue; */
+  width: 100%;
+
+}
+
+td{
+  text-align: center;
+  background-color:#302d2d ;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+th{
+  font-size: 19px;
+  background-color: yellow;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.carButoon{
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  
+}
+.carButoon:hover{
+  background-color: #000;
+  color: #fff;
+  
+}
